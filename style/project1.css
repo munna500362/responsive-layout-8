@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+ *{
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .section-header{
+ 
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.section-pragraph{
+color: #727272;
+font-size: 1rem;
+font-weight: 400;
+}
+.section-button{
+color: #FFF;
+padding: 15px 20px;
+font-size: 1rem;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+border: none;
+margin: 20px auto;
+}
+/*header section start*/
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.nav-arcitect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav > ul {
+    display: flex;
+}
+nav  li {
+     list-style: none;
+     margin-right: 20px;
+    font: size 1rem;
+    font-weight: 500;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.text-div{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  
+    
+}
+.brand-title{
+    color:  #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+.header-img{
+    width: 100%;
+}
+/*header section end*/
+.Features-div{
+    display: flex;
+    padding: 80px 240px;
+   
+
+
+}
+.Features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+    
+}
+.images{
+width: 100%;
+}
+.Features-text{
+
+
+}
+
+.Features-title{
+
+}
+.quick{
+    color:  #727272;
+    font-size:2.8rem;
+    font-weight: 500;
+}
+.Features , .of-our{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.Features{
+    color: #FF900E;
+}
+    
